@@ -1,0 +1,33 @@
+.DS_Store
+.env
+.flaskenv
+*.pyc
+*.pyo
+__pycache__/
+env/
+env*
+dist/
+build/
+*.egg
+*.egg-info/
+_mailinglist
+.cache/
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+*,cover
+
+# IDE related files
+.idea
+*.iml
+.vscode
+
+# Working data
+/debug.py
+/download
+/exports
+/dump.zip
+.tmp_report_*.pdf

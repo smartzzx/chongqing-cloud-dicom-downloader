@@ -1,0 +1,12 @@
+# 开发与测试依赖
+# 安装：pip install -r requirements-dev.txt
+# （通过下方 -r 自动带上 requirements.txt 中的全部运行时依赖）
+
+-r requirements.txt
+
+# 测试框架
+pytest~=8.4
+
+# 异步测试支持：pytest.ini 中的 asyncio_mode = auto 由该插件提供
+# 0.23 起支持 asyncio_default_fixture_loop_scope 配置项
+pytest-asyncio~=0.23
