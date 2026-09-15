@@ -51,8 +51,8 @@ Desktop/
 
 ```bash
 # 1. 克隆代码
-git clone https://github.com/<your-org>/cloud-dicom-downloader.git
-cd cloud-dicom-downloader
+git clone https://github.com/smartzzx/chongqing-cloud-dicom-downloader.git
+cd chongqing-cloud-dicom-downloader
 
 # 2.（建议）创建并激活虚拟环境
 python -m venv .venv
